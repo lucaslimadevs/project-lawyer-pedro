@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    font-family: 'roboto', sans-serif;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar{
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+    background-color: #332C35;         
+}
+
+.navbar-div{    
+    position: relative;
+    height: 120px;          
+}
+
+.nav-img-first{
+    position: absolute;
+    width: 180px;
+}
+
+.nav-img-second{
+    position: absolute;
+    height: 120px;
+    top: 0;
+    right: 0;
+}
+
+.div-img-second{
+    display: flex;
+    flex-wrap: nowrap;    
+    justify-content: flex-end;
+}
+
+.first-div-nav{
+    height: 60px;
+}
+
+.flex-container {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: flex;
+    flex-wrap: nowrap;    
+    justify-content: center;    
+}
+  
+.flex-container > div {
+    background-color: #332C35;   
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+    padding-right: 1rem;
+}
+
+.div-menu{
+    border-right: 1px solid white;
+}
+
+.section-first{
+    margin-top: 110px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.flex-section{
+    background-image: url(../Img/bem-vindo-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 850px;
+}
+  
+.flex-section > div {
+    color: white;
+    text-align: center;    
+    width: 70%;
+    height: 70%;
+}
+
+.flex-section > div > h1 {
+    font-size: 50px;
+}
+  
+
+.flex-section-second {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #332C35;  
+}
+  
+.flex-section-second > div {
+    background-color: #4d4350;
+    width: 50%;
+    line-height: 75px;
+    font-size: 30px;
+}
+  
+.footer-copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    background-color: #332C35;
+    height: 70px;
+}
+
+.footer-copy > div{
+    line-height: 18px;
+    color: white;
+}
+
+.footer-copy > .nomes{
+    font-size: 12px;
+}
+
+.image-pedro{
+    background-image: url(/Img/img_edited.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-pedro{
+    padding-left: 20px;    
+    background-color: #332C35;   
+    color: white;
+}
+
+.section-tittle{
+    margin-top: 110px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section-h3{    
+    font-size: 15px;
+    text-align: center;    
+    padding-right: 350px;
+    padding-left: 350px;
+}
+
+a{
+	text-decoration: none;
+    color: white;    
+}
+
+a:hover{
+    color: rgba(116, 116, 116, 0.801);
+}
+
+.section-atuacao{
+    background-image: url(/Img/atuacao-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    color: white;
+}
+
+.section-cotent{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 450px;
+}
+
+div > h2{
+    text-align: center;
+}
+
+.section-cotent > div {
+    line-height: 170%;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 32%;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;    
+}
+  
+.section-cotent-blog{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 450px;
+}
+
+.section-cotent-blog > div {
+    line-height: 170%;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 300px;
+    margin: 2%;    
+    border-radius: 10px;    
+}
+
+.section-cotent-blog > div:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+  
+
+.section-blog-img1{
+    background-image: url(/Img/blog-img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 50%; 
+    border-top-left-radius: 10px;  
+    border-top-right-radius: 10px;  
+}
+
+.section-blog-img2{
+    background-image: url(/Img/blog-img-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 50%; 
+    border-top-left-radius: 10px;  
+    border-top-right-radius: 10px;  
+}
+
+.section-blog-content1{
+    margin: 12px;
+}
+
+.section-contato{
+    background-image: url(/Img/contato-img-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    color: white;
+}
+
+.section-cotent-contato{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
+}
+
+.section-cotent-contato > div {
+    line-height: 170%;
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 99%;
+    margin: 1%;
+    padding: 40px;
+    border-radius: 10px;   
+     
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;    
+}
+
+form > div{        
+    margin-top: 0;       
+}
+
+form > div > p{
+    margin: 0;
+}
+
+.input{
+    background-color: gray;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.input-name{
+    width: 100%;
+}
+
+.input-email{
+    width: 50%;
+}
+
+.input-fone{
+    width: 50%;
+}
+
+.input-email1{
+    width: 95%;
+}
+
+.input-fone1{
+    width: 100%;
+}
+
+.input-assunto{
+    width: 100%;
+}
+
+.input-message{
+	height: 50px;
+    width: 100%;   
+    resize: none; 
+}
+
+.input-submit{
+    display: flex;
+    justify-content: center;
+	height: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.input-submit-button{
+    background-color: #9D8F7B;
+    width: 140px;
+    height: 40px;
+    font-weight: 700;    
+    color: white;
+    letter-spacing: 2px;
+}
